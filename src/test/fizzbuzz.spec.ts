@@ -1,6 +1,6 @@
 import {fizzbuzz} from "../main/fizzbuzz";
 
-describe("fizzbuzz", () => {
+describe.skip("fizzbuzz", () => {
     it.each`
     input | output
     ${1}  | ${"1"}
